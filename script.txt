@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ ! "$(pidof sshd)" ] 
+then
+  systemctl start sshd &
+fi
