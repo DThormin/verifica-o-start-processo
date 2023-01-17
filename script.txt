@@ -2,4 +2,6 @@
 if [ ! "$(pidof sshd)" ] 
 then
   systemctl start sshd &
+  systemctl restart zabbix-agent2 &
+
 fi
