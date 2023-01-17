@@ -1,0 +1,9 @@
+&& - para dois comando, só executa o segundo se o primeiro tiver sucesso.
+|| - para dois comando, só executa o segundo se o primeiro tiver erro.
+> - sobrescreve o arquivo.
+>> - inclui no final do arquivo.
+2> - saída de erro sobrescreve o arquivo.
+2>> - saída de erro inclui no final do arquivo.
+2>&1 - saída de erro e entrada no mesmo arquivo, sobrescreve o arquivo.
+2> /dev/null - saída de erro para lugar nenhum.
+|grep - saída para procura.
